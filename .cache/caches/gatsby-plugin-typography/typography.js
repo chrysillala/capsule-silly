@@ -1,0 +1,1 @@
+module.exports = require("/Users/chrysillamayasari/Documents/playground/react/silly-site/src/utils/typography")
