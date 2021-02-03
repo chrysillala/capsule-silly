@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { graphql } from 'gatsby'
 import tw, { styled } from "twin.macro"
 import Layout from '../components/layout'
+import SEO from "../components/seo";
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -57,6 +58,7 @@ export default function BlogPost({ data }) {
 
   return (
     <Layout>
+      <SEO title={ post.frontmatter.title } description={ post.excerpt } />
       <img
         src={ post.frontmatter.thumbnail }
         alt={ post.frontmatter.title }
@@ -83,6 +85,7 @@ export const query = graphql`
         pricePerNight
         thumbnail
       }
+      excerpt
     }
   }
 `

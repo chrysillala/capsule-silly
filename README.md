@@ -97,3 +97,19 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+
+## Prepare your site to go live
+https://www.gatsbyjs.com/docs/tutorial/part-eight/
+### Add Manifest File
+npm install gatsby-plugin-manifest
+
+### Add offline support
+npm install gatsby-plugin-offline
+
+### Add page metadata
+npm install gatsby-plugin-react-helmet react-helmet
+
+## Using gatsby image
+https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-image/
+
